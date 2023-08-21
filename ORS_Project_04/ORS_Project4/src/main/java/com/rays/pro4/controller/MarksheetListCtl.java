@@ -70,7 +70,7 @@ public class MarksheetListCtl extends BaseCtl {
 		// bean.setRollNo(DataUtility.getString(request.getParameter("rollNo")));
 		bean.setName(DataUtility.getString(request.getParameter("name")));
 		bean.setResult(DataUtility.getString(request.getParameter("result")));
-		
+		bean.setPhysics(DataUtility.getInt(request.getParameter("physics")));
 		return bean;
 	}
 
