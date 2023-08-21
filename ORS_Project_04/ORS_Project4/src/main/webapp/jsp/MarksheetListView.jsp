@@ -52,7 +52,11 @@
                     <td align="center">
                     <label> Student Name :</font></label> 
                     <input type="text" name="name" placeholder="Enter Student Name" value="<%=ServletUtility.getParameter("name", request)%>">
-                    &emsp; 
+                    &emsp;
+         <label> physics :</font></label> 
+<input type="number"name="physics" placeholder="physics"value="<%=ServletUtility.getParameter("physics", request)%>">
+ &emsp; 
+
                     <label>RollNo :</label> 
                     <%-- <input type="text" name="rollNo" placeholder="Enter Roll Number" value="<%=ServletUtility.getParameter("rollNo", request)%>">
                     --%>
